@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys, CIKM 2024</title>
+    <meta name="description" content="Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys, CIKM 2024">
+    <meta name="keywords" content="generative AI, GAI, recommender system, Recsys, CIKM, Soical recommendation, e-commerce recommendation">
+    <meta name="author" content="Da Xu"> 
+    <link rel="icon" href="images/logo.jpg">
+
+    <!-- favicon
+    <link href="favicon.png" rel=icon>-->
+
+    <!-- web-fonts -->
+    <link href="./resources/css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="./resources/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="./resources/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="./resources/css" rel="stylesheet">
+    <script type="text/javascript" src="./resources/jquery-1.12.4.min.js"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <div id="main-wrapper">
+        <!-- Page Preloader -->
+        <div id="preloader" style="display: none;">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div>
+
+        <a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo.jpg" style="width:50%" alt=""></a>
+
+        <header class="header">
+            <!-- Navigation -->
+            <nav class="navbar main-menu" role="navigation">
+                <div class="container">
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class="hidden active"><a href="#page-top"></a></li>
+                            <li class=""><a class="page-scroll" href="#section-intro">Introduction</a></li>
+                            <li class=""><a class="page-scroll" href="#section-content">Content</a></li>
+                            <li class=""><a class="page-scroll" href="#section-logistics">Logistics</a></li>
+                            <li class=""><a class="page-scroll" href="#section-speaker">Speaker</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+            <!-- .nav -->
+
+        </header>
+        <!-- .Jumbotron-->
+
+        <div class="jumbotron text-center">
+            <div class="content">
+               <!-- h1>Session on Causal Inference Analysis for Information Retrieval, INFORMS 2021</h1> 
+                <div class="event-date">October 25 11:00am (PDF) - October 25 12:30mm (PDT), 2021 </div>  -->
+            </div>
+        </div>
+
+
+    <!-- Introduction Section -->
+    <section id="section-intro" class="section-wrapper about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Tutorial on landing Generative AI in Industrial Social and E-commerce Recsys</h1>
+                        <h2>(CIKM 2024 Tutorial, Boise, Idaho)</h2>
+                 </div>
+            </div>
+
+            <div class="row text-justify">
+                <div class="col-md-12">
+                        <p class="large text-muted">
+                            Over the past two years, GAI has evolved rapidly, influencing various fields including social and e-commerce Recsys. Despite exciting advances, landing these innovations in real-world Recsys remains challenging due to the sophistication of modern industrial product and systems. Our tutorial begins with a brief overview of building industrial Recsys and  GAI fundamentals, followed by the ongoing efforts and opportunities to enhance personalized recommendations with foundation models.
+                        </p>
+                        <p class="large text-muted">
+                            We then explore the integration of curation capabilities into Recsys, such as repurposing raw content, incorporating external knowledge, and generating personalized insights/explanations to foster transparency and trust. Next, the tutorial illustrates how AI agents can transform Recsys through interactive reasoning and action loops, shifting away from traditional passive feedback models. Finally, we shed insights on real-world solutions for human-AI alignment and responsible GAI practices.
+                        </p>
+                        <p class="large text-muted">
+                            A critical component of the tutorial is detailing the AI, Infrastructure, LLMOps, and Product roadmap (including the evaluation and responsible AI practices) derived from the production solutions in LinkedIn, Amazon, TikTok, and Microsoft. While GAI in Recsys is still in its early stages, this tutorial provides valuable insights and practical solutions for the Recsys and GAI communities.
+                        </p>
+
+                        <p style="font-size: 25px;">
+                            The complete tutorial slides: <a href="./papers/Tutorial_Slides_CIKM_share.pdf" download=""> Download </a>.
+                        </p>
+
+                        <img src="./images/Intro.jpg"
+                            class="img-responsive" alt="intro">
+
+                </div>
+            </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Agenda Section -->
+    <section id="section-content" class="section-wrapper section-ajenda">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title" style="background-color: #FFA07A; height:50px; padding-top:0px;">
+                            <h2>Tutorial Content</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <style type="text/css">
+                    .tftable {
+                        font-size: 15px;
+                        color: #333333;
+                        width: 100%;
+                        border-width: 1px;
+                        border-color: #729ea5;
+                        border-collapse: collapse;
+                    }
+
+                    .tftable th {
+                        font-size: 15px;
+                        background-color: #acc8cc;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #729ea5;
+                        text-align: left;
+                    }
+
+                    .tftable tr {
+                        background-color: #FAF7F7;
+                    }
+
+                    .tftable td {
+                        font-size: 15px;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #090909;
+                    }
+
+                    .tftable tr:hover {
+                        background-color: #FAF7F7;
+                    }
+                </style>
+
+                <p>
+                The duration of our in-person tutorial will be approximately 4 hours (with one 30-minute break), from 1:45 pm to 5:30 pm (MDT) on Oct. 21, 2024.
+                </p>
+
+                <p style="font-size: 25px;">
+                The complete tutorial slides: <a href="./papers/Tutorial_Slides_CIKM_share.pdf" download=""> Download </a>.
+                </p>
+
+            </div>
+    </section>
+
+
+    <!-- Logistics Section -->
+    <section id="section-logistics" class="section-wrapper about-event">
+        <div class="container">
+                <div class="row" style="background-color: #FFA07A; height:50px; padding-top:0px;">
+                    <div class="col-lg-12 text-center">
+                        <h2>Logistics</h2>
+                 </div>
+            </div>
+
+            <div class="row">
+                <p style="color:red"><b>Tutorial Date and Location: </b> </p>
+                    <p> The tutorial will be held on Oct. 21, 2024 in Boise Center.</b> 
+            </p>
+
+            <p style="color:red"><b>Attendence and Registration: </b> </p>
+                    <p> All onsite attendees must be registered. Please refer to the <a href="https://cikm2024.org/registrations/">main conference registration</a> website for more information regarding the registration. The tutorial will be recorded and uploaded to the conference website as well.
+            </p>
+
+
+            <p style="color:red"><b>Please contact daxu5180 at gmail dot com for questions.</b> </p>
+
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Speaker Section -->
+    <section id="section-speaker" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="background-color: #FFA07A; height:50px; padding-top:0px;">
+                    <h2>Contributors</h2>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href="http://daxu5180.github.io"><img src="./images/DaXu.jpg" class="img-responsive" style="width:20%"
+                            alt="Da"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Da"><em><b>Da Xu (in-person presenter)</b></em></h3>
+                        <h4><b>Staff AI Engineer</b></h4>
+                        <h4><b>LinkedIn</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/danqing.png" class="img-responsive" style="width:20%"
+                            alt="Danqing"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Danqing"><em><b>Danqing Zhang</b></em></h3>
+                        <h4><b>Founder</b></h4>
+                        <h4><b>Stealth Startup</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/lingling.jpeg" class="img-responsive" style="width:20%"
+                            alt="Lingling"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Lingling"><em><b>Lingling Zheng</b></em></h3>
+                        <h4><b>Principal Applied Scienst</b></h4>
+                        <h4><b>Microsoft</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/Bo.jpeg" class="img-responsive" style="width:20%"
+                            alt="Bo"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Bo"><em><b>Bo Yang</b></em></h3>
+                        <h4><b>Applied Scientist</b></h4>
+                        <h4><b>Amazon</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/guangyu.jpeg" class="img-responsive" style="width:20%"
+                            alt="Guangyu"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Guangyu"><em><b>Guangyu Yang</b></em></h3>
+                        <h4><b>Senior AI Engineer</b></h4>
+                        <h4><b>Tiktok</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/Shuyuan.jpg" class="img-responsive" style="width:20%"
+                            alt="Shuyuan"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Shuyuan"><em><b>Shuyuan Xu</b></em></h3>
+                        <h4><b>AI Researcher</b></h4>
+                        <h4><b>Tiktok</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-16">
+                <figure class="thumbnail">
+                    <a href=""><img src="./images/cindy.jpeg" class="img-responsive" style="width:20%"
+                            alt="Cindy"></a>
+                    <figcaption class="caption text-center">
+                        <h3 id="Cindy"><em><b>Cindy Liang</b></em></h3>
+                        <h4><b>Engineering Manager</b></h4>
+                        <h4><b>LinkedIn</b></h4>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Organizer Section -->
+    <section id="section-acknowledgement" class="section-wrapper team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title" style="background-color: #FFA07A; height:50px; padding-top:0px;">
+                        <h2>Acknowledgement</h2>
+                        <h4>The speakers would like to thank the scholars and colleagues who assisted us during this project.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+   
+
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">Copyright © 2023. Da Xu. All rights reserved.</div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+    <!-- #main-wrapper -->
+
+
+    <!-- jquery -->
+    <script src="./resources/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="./resources/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./resources/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!---<script src="https://maps.googleapis.com/maps/api/js"></script>--->
+
+    <!--<script src="js/one-page-nav.js"></script>-->
+    <script src="./resources/scripts.js"></script>
+
+    <div class="jvectormap-tip"></div>
+</body>
+<div id="slickdeals" data-initialized="1"></div>
+
+</html>
